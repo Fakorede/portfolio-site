@@ -1,10 +1,11 @@
 +++
-date = 2020-04-18
 title = "👦🏾About Me"
 slug = "about" 
 +++
 
 ### Hi, 👋🏾
+
+[//]: # '{{ < figure src="/images/avatar.jpg" alt="avatar" class="right-aligned" >}}'
 
 I'm Fab, a 22 y/o Software Developer based in Nigeria.
 
