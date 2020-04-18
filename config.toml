@@ -97,21 +97,26 @@ disqusShortname = "yourdiscussshortname"
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "About"
+            name = "👦🏽About me"
             weight = 1
             url = "about/"
 
             [[languages.en.menu.main]]
-            name = "Blog"
+            name = "📖Blog"
             weight = 2
-            url = "posts/"
+            url = "https://fabcodes.hashnode.dev/"
 
             [[languages.en.menu.main]]
-            name = "Projects"
+            name = "👨‍💻Work"
             weight = 3
-            url = "projects/"
+            url = "work/"
 
             [[languages.en.menu.main]]
-            name = "Contact me"
+            name = "📲Contact me"
+            weight = 4
+            url = "mailto:abiolafakorede@gmail.com"
+
+            [[languages.en.menu.main]]
+            name = "📝Resume"
             weight = 5
-            url = "contact/"
+            url = "https://drive.google.com/file/d/1HsyYHujlBLpsqL5LYcllm4eZ3eVfObEl/view?usp=sharing"
