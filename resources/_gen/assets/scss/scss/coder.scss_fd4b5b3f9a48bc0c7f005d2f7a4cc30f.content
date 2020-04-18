@@ -9,7 +9,7 @@ html {
 
 body {
   color: #212121;
-  background-color: #FAFAFA;
+  background-color: #ffffff;
   font-family: Merriweather, Georgia, serif;
   font-size: 1.6em;
   font-weight: 300;
@@ -107,11 +107,11 @@ code {
   font-family: "Source Code Pro", "Lucida Console", monospace;
   font-size: 1.6rem;
   font-weight: 400;
-  background-color: #E0E0E0;
+  background-color: #f2f2f2;
   color: #212121; }
 
 blockquote {
-  border-left: 2px solid #E0E0E0;
+  border-left: 2px solid #f2f2f2;
   padding-left: 2.0rem;
   line-height: 2.2rem;
   font-weight: 400;
@@ -338,9 +338,9 @@ figure {
         padding: 0;
         max-height: 0;
         width: 100%;
-        background-color: #FAFAFA;
-        border-top: solid 2px #E0E0E0;
-        border-bottom: solid 2px #E0E0E0;
+        background-color: #ffffff;
+        border-top: solid 2px #f2f2f2;
+        border-bottom: solid 2px #f2f2f2;
         transition: opacity 0.25s, max-height 0.15s linear; } }
     .navigation .navigation-list .navigation-item {
       float: left;
@@ -365,7 +365,7 @@ figure {
     display: none; }
     @media only screen and (max-width: 768px) {
       .navigation #menu-toggle:checked + label {
-        color: #E0E0E0; }
+        color: #f2f2f2; }
       .navigation #menu-toggle:checked + label + ul {
         visibility: visible;
         opacity: 1;
