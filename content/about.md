@@ -5,8 +5,6 @@ slug = "about"
 
 ### Hi, 👋🏾
 
-[//]: # '{{ < figure src="/images/avatar.jpg" alt="avatar" class="right-aligned" >}}'
-
 I'm Fab, a 22 y/o Software Developer based in Nigeria.
 
 I always try to be open to learning new languages and frameworks depending on the need of the project. I thrive to learning about software development best practices and apply them to my work.
