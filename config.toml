@@ -1,109 +1,26 @@
-baseurl = "https://fakorede.github.io/"
-title = "Fakorede Abiola"
-theme = "hugo-coder"
+baseURL = "https://fakorede.github.io"
 
-languagecode = "en"
-defaultcontentlanguage = "en"
+# set your your own ga token here.
+googleAnalytics = "UA/G-123123-12"
 
-enableRobotsTXT = true
-day_night = true
+languageCode = "en-us"
+
+# for using avicenna you need to set the themes to 'avicenna'
+enableEmoji = true
+theme = "avicenna"
+
+# This is your page title, it appears in your tab
+title = "Moshood Abiola Fakorede"
+
+# number of posts to show on the blog page
+paginate = 10
+
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 1
 
 [params]
-    author = "Fakorede Abiola"
-    info = "Backend Developer"
-    description = "Fakorede Abiola's | Backend Developer | Portfolio website"
-    keywords = "portfolio,developer,personal,go,php,laravel,javascript,nodejs,backend"
-    avatarurl = "images/avatar.jpg"
-
-    favicon_32 = "/images/favicon-32x32.png"
-    favicon_16 = "/images/favicon-16x16.png"
-
-    footercontent = "Open to new opportunities as a Backend Developer - GO, PHP, Node.js"
-
-    # footer
-    hideFooter = false
-    hideCredits = false
-    hideCopyright = false
-    since = 2020
-
-    rtl = false
-
-    # Specify light/dark colorscheme
-    # Supported values:
-    # "auto" (use preference set by browser)
-    # "dark" (dark background, light foreground)
-    # "light" (light background, dark foreground) (default)
-    colorscheme = "dark"
-
-    # Series see also post count
-    maxSeeAlsoItems = 5
-
-    # Custom CSS
-    custom_css = ["css/custom.css"]
-
-    # Custom JS
-    custom_js = []
-
-# Socials
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
-    weight = 1
-    url = "https://github.com/Fakorede"
-    target= "_blank"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 3
-    url = "https://twitter.com/thefabdev/"
-    target= "_blank"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 4
-    url = "https://www.linkedin.com/in/fakorede/"
-    target= "_blank"
-[[params.social]]
-    name = "Blog"
-    icon = "fas fa-globe"
-    weight = 5
-    url = "https://fabcodes.hashnode.dev/"
-    target= "_blank"
-[[params.social]]
-    name = "Stack Overflow"
-    icon = "fab fa-stack-overflow"
-    weight = 6
-    url = "https://stackoverflow.com/users/6883910/abiola"
-    target= "_blank"
-
-
-[languages]
-    [languages.en]
-        languagename = "English"
-
-        [languages.en.menu]
-
-            [[languages.en.menu.main]]
-            name = "👦🏾About me"
-            weight = 1
-            url = "about/"
-
-            [[languages.en.menu.main]]
-            name = "📖Blog"
-            weight = 2
-            url = "https://fabcodes.hashnode.dev/"
-
-            [[languages.en.menu.main]]
-            name = "👨🏾‍💻Work"
-            weight = 3
-            url = "work/"
-
-            [[languages.en.menu.main]]
-            name = "📲Contact me"
-            weight = 4
-            url = "mailto:abiolafakorede@gmail.com"
-
-            [[languages.en.menu.main]]
-            name = "📝Resume"
-            weight = 5
-            url = "https://drive.google.com/file/d/1HsyYHujlBLpsqL5LYcllm4eZ3eVfObEl/view?usp=sharing"
+# it is used for the copy-right section of your page
+name = "Moshood A. Fakorede"
